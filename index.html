@@ -1,0 +1,116 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+	    <meta name="viewport" content="width=device-width,initial-scale=1">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<script src="js/jquery-3.3.1.min.js"></script>
+		<script src="js/script.js"></script>
+		<link rel="stylesheet" href="css/materialdesignicons.min.css">
+		<link rel="stylesheet" href="css/main.css">
+	    <link rel="stylesheet" href="css/responsive.css">
+	    <title>Martina Masanova</title>
+	</head>
+
+	<body onload="initialize();">
+
+		<div id="content">
+			<header>
+				<img id="logo" src="img/mm.svg" alt="Logo, two letters M in a circle">
+				<h1>Martina Masanova</h1>
+			</header>
+
+			<div id="main">
+				<section id="featured-image">
+					<figure>
+						<img src="img/binary_3x.jpg" 
+							 srcset="img/binary.jpg 1x, img/binary_2x.jpg 2x, img/binary_3x.jpg 3x"
+							 alt="Laptops and mobile devices floating around a globe of binary">
+						<figcaption>
+							<h2>Front-End Developer with backend experience</h2>
+						</figcaption>
+					</figure>
+				</section>
+
+				<article id="introduction">
+					<h2>Front-End Developer with backend experience</h2>
+					<p>
+						I am a software developer with mostly front-end, but also backend development experience. I am a keen learner who likes good UI/UX design, efficiency and some degree of variety in their work.
+					</p>
+				</article>
+
+				<article id="featured-projects">
+					<hr>
+					<h2>Featured Work</h2>
+
+					<div id="projects-background">
+						<div id="project-one" class="project">
+							<img src="img/luggage_3x.jpg" 
+								 alt="Five suitcases in front of a wall"
+								 srcset="img/luggage.jpg 1x, img/luggage_2x.jpg 2x, img/luggage_3x.jpg 3x">
+							<h3>FirstBag Mobile</h3>
+							<p>
+								Mobile reconciliation system solution that enables users to manage their bag room operations. Application is written in javascript, jquery, html and css using the cordova API which can run on Android or iOS. I have designed and developed the front end part of the solution and I have also written the server API for the mobile.
+							</p>
+							<p>
+								Read more about FirstBag Mobile <a target="blank" href="http://www.zafire.com/aviation/aviation-products/firstbag/firstbag-key-modules/firstbag-mobile/">here</a>.
+							</p>
+
+							<div class="read-more-fader"></div>
+
+							<button class="read-more-toggle read-less" data-collapsed="true">Read More</button>
+						</div>
+
+						<div id="project-two" class="project">
+							<img src="img/plane_3x.jpg" 
+								 srcset="img/plane.jpg 1x, img/plane_2x.jpg 2x, img/plane_3x.jpg 3x"
+								 alt="Cargo being loaded into an airplane">
+							<h3>FirstLoad</h3>
+							<p>
+								A responsive hybrid mobile aplication written in javascript, jquery, html and css using the cordova API which can run on Android or iOS. The application API and database use Rocket's Unidata multivalue server and database. I have designed and developed the front end part of the solution and I have also written the server API for the mobile.
+								The application was one of the most successful software implementations in our client's history.
+							</p>
+							<p>
+								Read more about FirstLoad <a target="blank" href="http://www.zafire.com/aviation/aviation-products/firstload/">here</a>.
+							</p>
+
+							<div class="read-more-fader"></div>
+
+							<div class="read-more-toggle read-less" data-collapsed="true">Read More</div>
+						</div>
+
+						<div id="project-three" class="project">
+							<img src="img/network_3x.jpg" 
+								 srcset="img/network.jpg 1x, img/network_2x.jpg 2x, img/network_3x.jpg 3x"
+							     alt="Cloud network graphic with server room in background">
+							<h3>Fusion Connections</h3>
+							<p>
+								A web server application written in Visual Basic that serves as a connection pool. A permanent connection is established with the Unidata server which reduces the amount of licences necessary to retrieve data. Requests are redirected to specific servers or server accounts based on parameters. This application is used with 95% of our customer base.
+							</p>
+							<p>
+								Read more about Zafire <a target="blank" href="http://www.zafire.com">here</a>.
+							</p>
+
+							<div class="read-more-fader"></div>
+
+							<div class="read-more-toggle read-less" data-collapsed="true">Read More</div>
+						</div>
+					</div>
+				</article>
+			</div>
+
+			<hr>
+
+			<footer>
+				<a href="https://www.linkedin.com/in/mmasanova/" target="blank">
+					<i class="mdi mdi-linkedin mdi-dark link-icon"></i>
+				</a>
+				<a href="https://github.com/mmasanova" target="blank">
+					<i class="mdi mdi-github-circle mdi-dark link-icon"></i>
+				</a>
+
+				<div id="copyright">© Martina Masanova 2018</div>
+			</footer>
+		</div>
+	</body>
+</html>

@@ -1,0 +1,103 @@
+
+@media screen and (min-width: 500px)
+{
+	#featured-image figcaption {
+		display: none;
+	}
+
+	#introduction h2 {
+	  display: block;
+	}
+
+	.project {
+		text-align: left;
+		height: auto;
+    max-height: none;
+	}
+
+	.project img {
+		float: left;
+    margin: 1em;
+		display: block;
+		width: 33%;
+	}
+
+	.read-more-toggle, .read-more-fader {
+		display: none;
+	}
+
+	.project h3 {
+		color: #1A237E;
+	}
+
+	.project-expanded {
+		padding: 0em 0em 1em 0em;
+	}
+}
+
+@media screen and (min-width: 600px)
+{
+	#featured-image {
+		flex: 0 0 50%;
+		background: #fafafa;
+	}
+
+	#introduction {
+		flex: 0 0 50%;
+		order: 1;
+		background: #fafafa;
+		max-height: 320px;
+	}
+
+	header h1 {
+    line-height: 2em;
+    display: inline-block;
+    width: 100%;
+    box-sizing: border-box;
+    border-bottom: 1px solid #ddd;
+    margin: 0em 0em 0.5em 0em;
+	}
+
+	#logo {
+		top: 0.5em;
+	}
+
+	#featured-projects {
+	  margin: 1em 0em 0em 0em;
+	}
+
+	.project {
+		height: auto;
+		max-height: none;
+	}
+}
+
+@media screen and (min-width: 700px)
+{
+	#projects-background {
+		display: flex;
+	}
+
+	.project {
+		flex: 1;
+		margin: 0em 0em 0em 0.5em;
+	}
+
+	.project img {
+		margin: 0;
+		width: 100%;
+		float: none;
+	}
+
+	.project h3 {
+		margin: 0.5em;
+	}
+}
+
+@media screen and (min-width: 750px)
+{
+	#content {
+		max-width: 800px;
+		margin: auto;
+	}
+}
