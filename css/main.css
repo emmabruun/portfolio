@@ -67,6 +67,11 @@ header h1 {
   padding: 0.5em 0.5em 0.5em 2.5em;
 }
 
+header h2 {
+  display: none;
+  font: 1.4em Raleway, Arial, sans-serif;
+}
+
 #logo {
   position: absolute;
   top: 1em;
@@ -165,7 +170,7 @@ header h1 {
   margin: 0.5em;
 }
 
-.read-more-fader { 
+.read-more-fader {
   position: absolute;
   bottom: 0;
   left: 0;

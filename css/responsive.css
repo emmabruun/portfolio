@@ -1,10 +1,6 @@
 
 @media screen and (min-width: 500px)
 {
-	#featured-image figcaption {
-		display: none;
-	}
-
 	#introduction h2 {
 	  display: block;
 	}
@@ -37,25 +33,41 @@
 
 @media screen and (min-width: 600px)
 {
+	#main {
+		display: block;
+	}
+
+	header h2 {
+		display: block;
+	}
+
+	#featured-image figcaption {
+		display: none;
+	}
+
 	#featured-image {
-		flex: 0 0 50%;
+		max-width: 50%;
 		background: #fafafa;
+		float: right;
+	}
+
+	#featured-image img {
+		padding: 0.5em;
+		box-sizing: border-box;
 	}
 
 	#introduction {
 		flex: 0 0 50%;
 		order: 1;
 		background: #fafafa;
-		max-height: 320px;
 	}
 
 	header h1 {
-    line-height: 2em;
-    display: inline-block;
-    width: 100%;
-    box-sizing: border-box;
-    border-bottom: 1px solid #ddd;
-    margin: 0em 0em 0.5em 0em;
+	    display: inline-block;
+	    width: 100%;
+	    box-sizing: border-box;
+	    margin: 0em;
+	    padding: 0.5em 0.5em 0em 0.5em;
 	}
 
 	#logo {
@@ -63,7 +75,7 @@
 	}
 
 	#featured-projects {
-	  margin: 1em 0em 0em 0em;
+	  	margin: 1em 0em 0em 0em;
 	}
 
 	.project {
